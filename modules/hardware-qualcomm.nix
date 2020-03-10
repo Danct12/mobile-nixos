@@ -22,6 +22,11 @@ in
       default = false;
       description = "enable when SOC is msm8939";
     };
+    hardware.socs.qualcomm-msm8940.enable = mkOption {
+      type = types.bool;
+      default = false;
+      description = "enable when SOC is msm8940";
+    };
     hardware.socs.qualcomm-msm8996.enable = mkOption {
       type = types.bool;
       default = false;
